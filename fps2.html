@@ -1,0 +1,57 @@
+
+<html>
+<head>
+    <style>
+    p.center{text-align:center;
+    }
+    .center {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+      width: 50%;
+    }
+        body {
+            margin:0;
+        }
+
+        #container {
+            width:768px; height: 1366px;
+            background-image: url(/media/dave/fps_background.jpg);
+        }
+
+        #company-logo {
+            width :668px;
+            border-radius: 33px;
+            margin-top: 50px;
+        }
+        #atn-logo {
+            border-bottom: 500x; 
+            width :100px;
+        }
+        
+        #scan {
+           
+            margin-top: 200px; 
+            width: 300px;  
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <img id="company-logo" src="/media/dave/fps_alun.png" >
+        <br>
+
+                
+        <p class="center" "font-size:50px">Please use place your finger in the rerder to begin.</p>
+        <img id="scan" src="/media/dave/scan.gif" class="center">
+        <img id="atn-logo" src="/media/dave/atn_logo.png">
+        <p class="center">Powered by ATN.</p>
+    </div>
+    <script>
+        setTimeout(function() {
+            location.reload(true);
+        }, 15000);
+    </script>
+</body>
+</html>

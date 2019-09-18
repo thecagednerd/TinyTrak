@@ -1,0 +1,65 @@
+
+<html>
+<head>
+    
+
+    <style>
+  
+        body {
+            margin:0;
+            width:768px;
+            max-width:768px; 
+            background-image: url(/media/dave/fps_background.jpg);
+            overflow: hidden;
+            
+        }
+
+        #container {
+            width:668px; 
+            height: 1366px;
+            min-width:668px; 
+            min-height: 1366px;
+            max-width:668px; 
+            max-height: 1366px;
+            margin:50px auto;
+            overflow: hidden;
+        }
+
+        #company-logo {
+            width :100%;
+            border-radius: 33px;
+        }
+        
+        #atn-logo {
+            width :100px;
+            display: inline-block;
+        }
+        
+        #powered-by-atn {
+            //width: 100%;
+            height: 100px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <img id="company-logo" src="/media/dave/fps_alun.png" >
+        <br>
+
+                
+        <p class="center" style="font-size:10px;">Please place your finger in the reader to begin.</p>
+        <img id="scan" src="/media/dave/scan.gif" class="center">
+        <div id="powered-by-atn">
+            <img id="atn-logo" src="/media/dave/atn_logo.png"> Powered by ATN
+        </div>
+    </div>
+    <script>
+        setTimeout(function() {
+            //location.reload(true);
+        }, 15000);
+    </script>
+</body>
+</html>
